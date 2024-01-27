@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  var x = myFunction(4, 3);
+  document.getElementById("demo").innerHTML = x;
+  function myFunction(a, b) {
+  return a * b;
+  }
+  </script>
+  <hr>
+  <h1><u>if</u></h1>
+  <h2>JavaScript if</h2>
+
+  <p>Display "Good day!" if the hour is less than 18:00:</p>
+
+  <p id="demo">Good Evening!</p>
+
+  <script>
+    if (new Date().getHours() < 18) {
+      document.getElementById("demo").innerHTML = "Good day!";
+    }
+  </script>
+  <hr>
+  <h1><u>if...else</u></h1>
+  <h2>JavaScript if .. else</h2>
+
+  <p>A time-based greeting:</p>
+
+  <p id="demo"></p>
+
+  <script>
+    const hour = new Date().getHours();
+    let greeting;
+
+    if (hour < 18) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }
+
+    document.getElementById("demo").innerHTML = greeting;
+  </script>
+  <hr>
+  <h1><u>operator</u></h1>
+  <hr>
+  <h2>JavaScript if .. else</h2>
+
+  <p>A time-based greeting:</p>
+
+  <p id="demo"></p>
+
+  <script>
+    const hr = new Date().getHours();
+    let greting;
+
+    if (hour < 18) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }
+
+    document.getElementById("demo").innerHTML = greeting;
+  </script>
+  <hr>
+  <h1><u>operator</u></h1>
+  <hr>
+  <h1>JavaScript Bitwise AND</h1>
+  <h2>The & Operator</h2>
+
+  <p id="demo"></p>
+
+  <script>
+    document.getElementById("demo").innerHTML = 5 & 1;
+  </script>
+  <br>
+  <h1>JavaScript Bitwise XOR</h1>
+  <h2>The ^ Operator</h2>
+
+  <p id="demo"></p>
+
+  <script>
+    document.getElementById("demo").innerHTML = 5 ^ 1;
+  </script>
+  <br>
+</body>
+
+</html>

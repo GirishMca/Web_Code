@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <h2>Contact Information</h2>
+        <p>Required Fields are followed by *</p>
+        <p>Name:*<input type="text" name="name" required></p>
+       <fieldset>
+        <legend>Gender *</legend>
+         <p>Male<input type="radio" name="gender" id="gender" required>Female<input type="radio" name="gender" id="gender" required></p>
+       </fieldset>
+       <p>Address:<textarea name="address" id="address" row="10"cols="10"></textarea></p> <!--Multiple Line use Text area input tag-->
+       <p>Email:* <input type="email"name="email" id="email" required></p>
+       <p>Pin Code:*<input type="number" name="number" id="number" required></p>
+       <hr>
+       <h2>Payment Information</h2>
+       <p>Card Type:*
+        <select name="card_type"id="card_type" required>
+         <option value="">--Select a Card Type--</option>
+         <option value="visa">Visa</option><!--value servr,option tag middle value display in browser (doubt id="value",option tag middle)-->
+         <option value="rupay">Rupay</option>
+         <option value="mastercard">Master Card</option>
+        </select>
+       </p>
+       <p>Crad Number:*<input type="number" name="card_number" id="card_number" required></p>
+       <p>
+        Expiry Date:*<input type="date" name="exp_date" id="exp_date" required><!--name value doubt-->
+       </p>
+       <p>CVV:*<input type="password" name="cvv" id="cvv" required></p>
+       <input type="submit" value="pay Now">
+    </form>
+    <hr>
+    <h3>WORK PROGRESS</h3>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+</head>
+
+<body>
+    <style>
+        .buttonButton1 {
+            border: none;
+            color: blue;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .buttonButton2 {
+            border: none;
+            color: green;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+
+    </head>
+
+    <body>
+
+        <h1> Button in HTML</h1>
+        <button class="buttonButton1">Green</button>
+        <button class="buttonButton2">Blue</button>
+
+        <h1> List in Html</h1>
+        <h3> ordered list </h3>
+        <ol>
+            <li>list item 01</li>
+            <li>list item 02</li>
+            <li>list item 03</li>
+        </ol>
+        <h3> unordered list </h3>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <h3> Label, Input, Number, CheckBox, Radio, TextBox, DropDown, Date & slider </h3>
+        <div>
+            <label>First Name: </label>
+            <input type="text">
+        </div>
+        </br>
+
+        <div>
+            <label>Last Name:</label>
+            <input type="text">
+        </div>
+        </br>
+
+        <div>
+            <label for="quantity">Quantity(between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+        </div>
+        </br>
+
+        <div>
+            <label for="birthday">Birthday:
+            </label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        </br>
+
+        <div class="dropdown">
+            <button onclick="u()" class="dropbtn">Button</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">link 1</a>
+                <a href="#">link 2</a>
+                <a href="#">link 3</a>
+            </div>
+        </div>
+        </br>
+
+        <div>
+            <label> Vichele </label>
+            <input type="checkbox"> Bike
+            <input type="checkbox">Car
+        </div>
+        </br>
+
+        <div>
+            <label> Subject </label>
+            </br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+
+
+
+
+
+    </body>
+
+</html>
